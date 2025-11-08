@@ -57,6 +57,7 @@ let hasID = true
 
 if (age || hasID) {
     console.log("at least one value is present");
+
 } else {
 console.log("no values are present");
 }
@@ -64,3 +65,28 @@ console.log("no values are present");
 // ternary operator
 age>18? console.log("adult") : console.log("minor");
 
+// write an if/else statement to check the user is valid for vote or not ?
+let user = 17
+if (user>=18) {
+    console.log("you are eligible to vote");
+    
+    
+} else {
+    console.log("you are not eligible to vote")
+    
+}
+// determine the users grade based on their score ?
+let score = 10; // The input score is 10
+
+if (score >= 90) {
+    console.log("Your grade is A");
+} else if (score >= 80) { // Correct: Checks if score is 80 or higher (but less than 90)
+    console.log("Your grade is B");
+} else if (score >= 70) { // Correct: Checks if score is 70 or higher (but less than 80)
+    console.log("Your grade is C");
+} else if (score >= 25) { // Correct: Checks if score is 25 or higher (but less than 70)
+    console.log("Your grade is D");
+} else {
+    // If none of the above are true, score is less than 25
+    console.log("You failed");
+}
