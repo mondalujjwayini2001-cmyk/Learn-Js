@@ -90,3 +90,9 @@ if (score >= 90) {
     // If none of the above are true, score is less than 25
     console.log("You failed");
 }
+
+
+function greet (p){
+    console.log(`hello ${p}`);
+}
+greet("bini")
